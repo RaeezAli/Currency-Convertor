@@ -53,7 +53,7 @@ function App() {
                     </div>
                     <div className="relative w-full h-0.5">
                         <button
-                            type="button"  style={{backgroundColor: '#005C78'}}  
+                            type="button" style={{backgroundColor: '#005C78', textTransform: 'uppercase'}}  
                             className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md text-white px-2 py-0.5"
                             onClick={swap}
                         >
@@ -70,7 +70,7 @@ function App() {
                             amountDisable
                         />
                     </div>
-                    <button type="submit" className="w-full text-white px-4 py-3 rounded-lg" style={{backgroundColor: '#005C78'}}  >
+                    <button type="submit" className="w-full text-white px-4 py-3 rounded-lg" style={{backgroundColor: '#005C78', textTransform: 'uppercase' , touchAction: 'none'}}>
                         Convert {from.toUpperCase()} to {to.toUpperCase()}
                     </button>
                 </form>
